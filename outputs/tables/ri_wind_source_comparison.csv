@@ -1,0 +1,4 @@
+Wind Source,Available Current Observations,Missing Current Observations,Current Observation Coverage Percentage,Valid 24-hour Pairs,Missing from Valid 24-hour Pairs,Valid Pair Coverage Percentage,RI Events,RI Percentage
+WMO_WIND,7620,10553,41.93,5243,9216,36.26,322,6.14
+NEWDELHI_WIND,9467,8706,52.09,6489,7970,44.88,348,5.36
+USA_WIND,13668,4505,75.21,11419,3040,78.98,523,4.58

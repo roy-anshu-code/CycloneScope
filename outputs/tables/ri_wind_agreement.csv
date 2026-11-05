@@ -1,0 +1,4 @@
+Wind Source Pair,Common Valid Pairs,Agreement Count,Disagreement Count,Agreement Percentage,Both RI,Neither RI,First Only RI,Second Only RI
+WMO_WIND vs NEWDELHI_WIND,4795,4795,0,100.0,299,4496,0,0
+WMO_WIND vs USA_WIND,3963,3683,280,92.93,209,3474,112,168
+NEWDELHI_WIND vs USA_WIND,4513,4191,322,92.87,211,3980,136,186

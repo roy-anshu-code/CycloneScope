@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run wind consistency verification",
+			"type": "shell",
+			"command": "c:/Users/dipan/OneDrive/Desktop/CycloneScope/.venv/Scripts/python.exe",
+			"args": [
+				"scripts/verify_wind_consistency.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run WMO agency analysis",
+			"type": "shell",
+			"command": "c:/Users/dipan/OneDrive/Desktop/CycloneScope/.venv/Scripts/python.exe",
+			"args": [
+				"scripts/analyze_wmo_agency.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run final RI wind selection comparison",
+			"type": "shell",
+			"command": "c:/Users/dipan/OneDrive/Desktop/CycloneScope/.venv/Scripts/python.exe",
+			"args": [
+				"scripts/finalize_ri_wind_selection.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run RI distribution analysis",
+			"type": "shell",
+			"command": "c:/Users/dipan/OneDrive/Desktop/CycloneScope/.venv/Scripts/python.exe",
+			"args": [
+				"scripts/analyze_ri_distribution.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
